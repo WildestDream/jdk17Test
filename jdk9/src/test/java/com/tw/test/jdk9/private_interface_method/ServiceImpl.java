@@ -1,4 +1,4 @@
-package com.tw.test.private_interface_method;
+package com.tw.test.jdk9.private_interface_method;
 
 public class ServiceImpl implements Service {
     public static void main(String[] args) {

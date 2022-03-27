@@ -1,4 +1,4 @@
-package com.tw.test.private_interface_method;
+package com.tw.test.jdk9.private_interface_method;
 
 public interface Service {
     //接口中可以定义静态方法
