@@ -21,14 +21,14 @@ public class SwitchYieldTest {
     }
 
     /*
-    1. yield 用于中断 switch-case，但是并不是中断整个方法，这一点与return不一样
-    2. case 块中可以定义各自的局部变量，不会冲突
-    3. 不用担心case击穿，不用写 break了。
+    1. yield可以直接作为switch-case的返回值，用于中断 switch-case（但是并不是中断整个方法，这一点与 return不一样）
+    2. case 块中可以定义各自的局部变量
+    3. 不用担心 case击穿，不用写 break了。
      */
     @Test
     void test2() {
         String input = getType();
-        int result = switch (input) {
+        double result = switch (input) {
             case "A" -> {
                 int a = 1;
                 int b = 2;
@@ -44,6 +44,7 @@ public class SwitchYieldTest {
                 int b = 3;
                 yield a % b;
             }
+            case "D", "E" -> Math.random();
             default -> 0;
         };
         System.out.println("result = " + result);
