@@ -9,15 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>modole1</artifactId>
-    <dependencies>
-        <dependency>
-            <groupId>com.tw</groupId>
-            <artifactId>module2</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
+    <artifactId>module1</artifactId>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>

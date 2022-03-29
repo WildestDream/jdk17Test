@@ -53,16 +53,15 @@ public class VarTest {
     }
 
     //不能做返回值类型
-//    public var getMsg(){
-//        return "1";
-//    }
+/*    public var getMsg(){
+        return "1";
+    }*/
 
     //不能做方法的参数
-//    public void method(var params){
-//    }
+/*    public void method(var params){
+    }*/
 
-    //不能做属性
+    //不能做属性, 系统不知道怎么赋初值，无法推断
 //    private val id;
-
 
 }

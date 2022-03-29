@@ -9,9 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>modole1</module>
+        <module>module1</module>
         <module>module2</module>
-        <module>test</module>
     </modules>
 
     <name>jdk17Test</name>

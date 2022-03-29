@@ -1,3 +1,3 @@
-module module {
-    exports com.tw.domain;
+module moduleInvoke {
+    requires modulePerson;
 }
